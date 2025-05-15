@@ -1,0 +1,119 @@
+#botão-link{
+  color: black;
+  padding: 8px 20px;
+  box-shadow: 2px 2px 6px;
+  border-radius: 10px;
+  text-decoration: none;
+  transform: scale(50px);
+  transition:0.3s ease, transform 0.2 ease;
+  margin-right: 50%;
+}   
+
+#botão-link:hover{
+  background-color: rgb(10, 107, 21);
+}
+
+#sobre-nós{
+  color: black;
+  padding: 8px 20px;
+  box-shadow: 2px 2px 6px;
+  border-radius: 10px;
+  text-decoration: none;
+  transform: scale(50px);
+  transition:0.3s ease, transform 0.2 ease;
+  margin-left: 50%;
+}   
+
+#sobre-nós:hover{
+  background-color: rgb(10, 107, 21)
+}
+
+
+
+
+#botão-inicio{
+  color: black;
+  padding: 8px 20px;
+  box-shadow: 2px 2px 6px;
+  border-radius: 10px;
+  text-decoration: none;
+  transform: scale(50px);
+  transition:0.3s ease, transform 0.2 ease;
+  margin-left: 50%;
+}   
+
+#botão-inicio:hover{
+  background-color: rgb(10, 107, 21);
+}
+
+
+
+
+#botão-inicio-cardapio{
+  color: black;
+  padding: 8px 20px;
+  box-shadow: 2px 2px 6px;
+  border-radius: 10px;
+  text-decoration: none;
+  transform: scale(50px);
+  transition:0.3s ease, transform 0.2 ease;
+  margin-left: 50%;
+}   
+
+#botão-inicio-cardapio:hover{
+  background-color: rgb(10, 107, 21)
+}
+
+  .card-hover1 {
+      background-color: rgb(100, 0, 0);
+      color: black;
+      transition: background-color 0.4s, color 0.4s;
+    }
+
+    .card-hover1:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .card-hover1:hover h2,
+    .card-hover1:hover p,
+    .card-hover1:hover span {
+      color: rgb(15, 2, 2) !important;
+    }
+
+    
+  .card-hover2 {
+      background-color: rgb(100, 0, 0);
+      color: black;
+      transition: background-color 0.4s, color 0.4s;
+    }
+
+    .card-hover2:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .card-hover2:hover h2,
+    .card-hover2:hover p,
+    .card-hover2:hover span {
+      color: rgb(15, 2, 2) !important;
+    }
+
+
+    
+  .card-hover3 {
+      background-color: rgb(100, 0, 0);
+      color: black;
+      transition: background-color 0.4s, color 0.4s;
+    }
+
+    .card-hover3:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .card-hover3:hover h2,
+    .card-hover3:hover p,
+    .card-hover3:hover span {
+      color: rgb(15, 2, 2) !important;
+    }

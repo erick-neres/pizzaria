@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pizza & Prosa</title>
+  </head>
+<body style="background-color: #7a0808ef; margin: 0; font-family: Arial, sans-serif; ">
+
+<link rel="stylesheet" href="CSS/style.css">
+
+<!-- Cabeçalho -->
+<header style="display: flex; align-items: center; justify-content: space-between; padding: 20px 5%;width:70% ;background-color: rgb(10, 107, 21);box-shadow: 16px 16px 12px rgb(0,0,0,0.4); margin-left: 10%; border-radius: 10px;  " >
+  <img src="img/74a0e52b-c401-401e-a37d-787e6507c3ee.png"  style="width: 120px; height: 120px; border-radius: 10%;">
+  <div style="display: flex; align-items: center; gap: 10px; ">
+    <img src="img/transferir (4).png" style="width: 80px;">
+    <span style="font-size: 18px; font-weight: bold;">+55 (11) 93768-2453</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="img/transferir (5).png" style="width: 80px;">
+    <span style="font-size: 18px; font-weight: bold;">@Pizza&Prosa</span>
+  </div>
+</header>
+
+<br>
+
+<div style="background-color: rgb(195, 209, 197); width: 10%; margin-left: 10%; border-radius: 10px; padding: 20px 0; text-align: center;">
+  <a id="botão-inicio-cardapio" href="index.html" style="margin: 0 15px; font-weight: bold; color: #000;">INICIO</a>
+</div>
+
+<br>
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px; padding: 20px;">
+
+  <!-- Card 1 -->
+  <div class="card-hover1"
+    style="position: relative; width: 300px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.3); overflow: hidden; transition: transform 0.3s; cursor: pointer; background-color: white;"
+    onmouseover="this.querySelector('.fundo').style.opacity='1'; this.style.transform='scale(1.05)'"
+    onmouseout="this.querySelector('.fundo').style.opacity='0'; this.style.transform='scale(1)'"
+  >
+    <div class="fundo" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url('img/fundo-pizza.jpg'); background-size: cover; background-position: center; opacity: 0; transition: 0.5s ease-in-out; z-index: 0;"></div>
+    <div style="position: relative; z-index: 1; padding: 20px; text-align: center;">
+      <img src="img/transferir.jpeg" alt="Pizza Margherita" style="width: 100%; border-radius: 10px; box-shadow: 0 5px 10px rgba(0,0,0,0.2);">
+      <h2 style="color: #7a0808; margin-top: 15px;">Pizza Margherita</h2>
+      <p style="color: #333;">Molho de tomate, mussarela, manjericão fresco.</p>
+      <span style="font-weight: bold; font-size: 18px; color: green;">R$ 32,00</span>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card-hover2"
+    style="position: relative; width: 300px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.3); overflow: hidden; transition: transform 0.3s; cursor: pointer; background-color: white;"
+    onmouseover="this.querySelector('.fundo').style.opacity='1'; this.style.transform='scale(1.05)'"
+    onmouseout="this.querySelector('.fundo').style.opacity='0'; this.style.transform='scale(1)'"
+  >
+    <div class="fundo" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url('img/fundo-pizza.jpg'); background-size: cover; background-position: center; opacity: 0; transition: opacity 0.5s ease-in-out; z-index: 0;"></div>
+    <div style="position: relative; z-index: 1; padding: 20px; text-align: center;">
+      <img src="img/transferir (2).jpeg" alt="Pizza Margherita" style="width: 100%; border-radius: 10px; box-shadow: 0 5px 10px rgba(0,0,0,0.2);">
+      <h2 style="color: #7a0808; margin-top: 15px;">Pizza Portuguesa</h2>
+      <p style="color: #333;">presunto de Parma, ervilha e um ovo estalado.</p>
+      <span style="font-weight: bold; font-size: 18px; color: green;">R$ 38,00</span>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card-hover3"
+    style="position: relative; width: 300px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.3); overflow: hidden; transition: transform 0.3s; cursor: pointer; background-color: white;"
+    onmouseover="this.querySelector('.fundo').style.opacity='1'; this.style.transform='scale(1.05)'"
+    onmouseout="this.querySelector('.fundo').style.opacity='0'; this.style.transform='scale(1)'"
+  >
+    <div class="fundo" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url('img/fundo-pizza.jpg'); background-size: cover; background-position: center; opacity: 0; transition: opacity 0.5s ease-in-out; z-index: 0;"></div>
+    <div style="position: relative; z-index: 1; padding: 20px; text-align: center;">
+      <img src="img/transferir (1).jpeg" alt="Pizza Quatro Queijos" style="width: 100%; border-radius: 10px; box-shadow: 0 5px 10px rgba(0,0,0,0.2);">
+      <h2 style="color: #7a0808; margin-top: 15px;">Pizza Quatro Queijos</h2>
+      <p style="color: #333;">queijo gorgonzola, queijo parmesão, queijo mussarela, requeijão, bacon, mel, farinha, agua e saly.</p>
+      <span style="font-weight: bold; font-size: 18px; color: green;">R$ 45,00</span>
+    </div>
+  </div>
+
+  <br>
+
+</div>
+
+ <footer style="text-align: center; background-color: #1e1e1e; color: white; padding: 5%; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <p style="margin: 5px;">Pizza & Prosa - O sabor que conquista Santana de Parnaíba.</p>
+    <p style="margin: 5px;">Telefone: +55 (11) 93768-2453 | E-mail: Pizza&Prosa@gmail.com</p>
+    <p style="margin: 5px;">Santana de Parnaíba, SP</p>
+    <p style="margin-top: 15px; font-size: 14px;">© 2025 Pizza & Prosa. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
